@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Fauna One", serif;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+.db-infographics {
+  height: 100%;
+  position: relative;
+}
+.db-infographics__scene {
+  height: 100%;
+  position: relative;
+}
+
+.part-one {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.part-one .sections {
+  height: 100%;
+}
+.part-one .section {
+  height: 100%;
+  width: calc(100% / 5);
+  float: left;
+  position: relative;
+}
+.part-one .section:nth-child(1) {
+  background: #F64747;
+}
+.part-one .section:nth-child(2) {
+  background: #22A7F0;
+}
+.part-one .section:nth-child(3) {
+  background: #F9690E;
+}
+.part-one .section:nth-child(4) {
+  background: #9B59B6;
+}
+.part-one .section:nth-child(5) {
+  background: #03C9A9;
+}
+.part-one .sections {
+  width: 500%;
+  height: 100%;
+}
+.part-one .section__title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  color: #fff;
+}
+
+.empty-slide {
+  height: 100vh;
+}
+
+/*# sourceMappingURL=index.css.map */

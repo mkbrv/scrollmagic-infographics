@@ -1,0 +1,27 @@
+// ---------- GENERAL STYLES ---------- //
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Fauna One', serif;
+}
+
+body,
+html {
+  height: 100%
+}
+
+.db-infographics {
+  height: 100%;
+  position: relative;
+
+  &__scene {
+    height: 100%;
+    position: relative;
+  }
+}
+
+@import "../parts/part-one/part-one";
+@import "../parts/empty-slide/empty-slide";
